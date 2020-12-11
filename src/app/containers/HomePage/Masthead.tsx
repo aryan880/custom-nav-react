@@ -1,34 +1,15 @@
 import * as React from 'react';
 import styled from 'styled-components/macro';
-import { Logos } from './Logos';
 import { Title } from 'app/containers/HomePage/components/Title';
 import { Lead } from 'app/containers/HomePage/components/Lead';
-import { A } from 'app/components/A';
+import { SubTitle } from 'app/containers/HomePage/components/SubTitle';
+
 
 export function Masthead() {
   return (
     <Wrapper>
-      <Logos />
-      <Title>React Boilerplate meets CRA</Title>
-      <Lead>
-        Now you can use the{' '}
-        <A
-          href="https://www.reactboilerplate.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React Boilerplate
-        </A>{' '}
-        as a{' '}
-        <A
-          href="https://github.com/facebook/create-react-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Create React App
-        </A>{' '}
-        template.
-      </Lead>
+      <Title>Home Page</Title>
+      <Lead>This is hello world</Lead>
     </Wrapper>
   );
 }
